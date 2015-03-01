@@ -1,0 +1,4056 @@
+Peer has been initialized with list of host caches: HostCache0 HostCache1 
+RECEIVE - Message HC_pong received (performative is INFORM), from HostCache0:
+First host cache that responded.
+My new neighbour list TO TRY pinging is: SuperPeer1 
+
+////////////////////////
+
+RECEIVE - Message HC_pong received (performative is INFORM), from HostCache1:
+Already received response from another host cache - IGNORING
+
+////////////////////////
+
+RECEIVE - Message HC_pong received (performative is INFORM), from HostCache0:
+First host cache that responded.
+My new neighbour list TO TRY pinging is: SuperPeer1 SuperPeer6 SuperPeer5 SuperPeer7 
+
+////////////////////////
+
+RECEIVE - Message HC_pong received (performative is INFORM), from HostCache1:
+Already received response from another host cache - IGNORING
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer5
+I can add him as a neighbour.
+New neighbour list: SuperPeer5 
+SEND - pong back. The peers in the return path will be: SuperPeer5 
+TTL>0 - will also forward the ping.
+SEND - ping to: no suitable peers found
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer4
+I can add him as a neighbour.
+New neighbour list: SuperPeer5 SuperPeer4 
+SEND - pong back. The peers in the return path will be: SuperPeer4 
+TTL>0 - will also forward the ping.
+SEND - ping to: SuperPeer5 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer6:
+And the peer that INITIATED the ping was: SuperPeer6
+I can add him as a neighbour.
+New neighbour list: SuperPeer5 SuperPeer4 SuperPeer6 
+SEND - pong back. The peers in the return path will be: SuperPeer6 
+TTL>0 - will also forward the ping.
+SEND - ping to: SuperPeer5 SuperPeer4 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer2:
+And the peer that INITIATED the ping was: SuperPeer2
+I can add him as a neighbour.
+New neighbour list: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+SEND - pong back. The peers in the return path will be: SuperPeer2 
+TTL>0 - will also forward the ping.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer6:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer2:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+Sending initial pings:
+Sending ping to: SuperPeer1
+Sending ping to: SuperPeer6
+Sending ping to: SuperPeer5
+Sending ping to: SuperPeer7
+//////////
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer6:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer2:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer6:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer2:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer3:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer1:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer3:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer1:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer3:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer1:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer3:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer1:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message pong received (performative is INFORM), from SuperPeer7:
+A ping I issued has returned back. The responding peer was SuperPeer7
+But I do not have space to add him as a neighbour. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer4
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer7:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer5
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer5 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL>0 - I will forward the ping onwards.
+SEND - ping to: SuperPeer4 SuperPeer6 SuperPeer2 
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer6
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer2
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer7
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer5:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer3
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
+RECEIVE - Message ping received (performative is REQUEST), from SuperPeer4:
+And the peer that INITIATED the ping was: SuperPeer1
+But I either do not have space to add him as a neighbour, or he already exists. (neighbours 
+SuperPeer5 SuperPeer4 SuperPeer6 SuperPeer2 )
+TTL=0 - I will not forward the ping.
+
+////////////////////////
+
